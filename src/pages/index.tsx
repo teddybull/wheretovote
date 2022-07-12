@@ -72,6 +72,18 @@ const Home: NextPage = () => {
           <p className="text-slate-700 text-center my-16">No result found</p>
         )}
       </div>
+
+      <p className="my-5 text-center text-slate-400">
+        built by{" "}
+        <a
+          href="https://twitter.com/0xteddybull"
+          target="_blank"
+          rel="noreferrer"
+          className="text-slate-500 underline"
+        >
+          teddybull
+        </a>
+      </p>
     </>
   );
 };
