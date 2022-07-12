@@ -67,6 +67,10 @@ const Home: NextPage = () => {
         {filteredDaos.map((dao) => (
           <DaoCard key={dao.name} dao={dao} />
         ))}
+
+        {!filteredDaos.length && (
+          <p className="text-slate-700 text-center my-16">No result found</p>
+        )}
       </div>
     </>
   );
