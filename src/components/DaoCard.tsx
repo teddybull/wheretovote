@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import Img from "next/image";
 import { Dao } from "../data/daos";
 
 const LOGO_SIZE = 60;
@@ -11,7 +10,7 @@ const DaoCard = ({ dao }: { dao: Dao }) => {
     <div className="bg-white shadow rounded-md p-5 pb-4 flex flex-col items-center">
       <div className="flex-grow flex items-center mt-2">
         {logoUrl ? (
-          <Img
+          <img
             src={`/logos/${logoUrl}`}
             alt={name}
             width={LOGO_SIZE}

@@ -1,5 +1,3 @@
-import Img from "next/image";
-
 export default function Contribute() {
   return (
     <div className="absolute top-4 right-6 hidden lg:block">
@@ -16,13 +14,13 @@ export default function Contribute() {
         href="https://github.com/teddybull/wheretovote"
         target="_blank"
         rel="noreferrer"
-        className="block transform hover:scale-110 transition-all"
+        className="block hover:scale-110 transition-all"
       >
-        <Img src="/github.svg" width={35} height={35} />
+        <img src="/github.svg" alt="GitHub logo" width={35} height={35} />
       </a>
 
       <div className="absolute right-10 top-7 w-[52px]">
-        <Img src="/arrow.png" width={52} height={48} />
+        <img src="/arrow.png" alt="Arrow" width={52} height={48} />
       </div>
     </div>
   );

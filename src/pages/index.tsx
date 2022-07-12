@@ -1,6 +1,5 @@
 import { useState } from "react";
 import type { NextPage } from "next";
-import Img from "next/image";
 import Head from "next/head";
 
 import daos from "../data/daos";
@@ -31,7 +30,13 @@ const Home: NextPage = () => {
 
       <div className="flex flex-col mt-10 align-center">
         <h1 className="hidden">Where to vote?</h1>
-        <Img src="/logo.svg" width="434px" height="55px" />
+        <img
+          src="/logo.svg"
+          alt="Logo"
+          width={434}
+          height={55}
+          className="mx-auto"
+        />
 
         <p className="text-center text-gray-500 text-xl mt-4">
           quicklinks for DAO governance
