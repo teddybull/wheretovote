@@ -16,6 +16,7 @@ export default function Contribute() {
         href="https://github.com/teddybull/wheretovote"
         target="_blank"
         rel="noreferrer"
+        className="block transform hover:scale-110 transition-all"
       >
         <Img src="/github.svg" width={35} height={35} />
       </a>

@@ -42,7 +42,7 @@ const Home: NextPage = () => {
           ref={searchInputRef}
           placeholder="search for a dao"
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="max-w-sm block mx-auto bg-slate-200 p-2 pl-12 mt-8 rounded-full border-2 border-transparent focus:border-slate-500 transition-all outline-none text-slate-700"
+          className="max-w-sm block mx-auto bg-slate-200 p-2 pl-12 mt-8 rounded-full border-2 border-transparent focus:border-slate-500 transition-all outline-none text-slate-700 hover:scale-105 focus:scale-100"
           style={{
             backgroundImage: "url(/search.svg)",
             backgroundRepeat: "no-repeat",
