@@ -2,6 +2,7 @@ export interface Dao {
   name: string;
   discussUrl?: string;
   voteUrl?: string;
+  logoUrl?: string;
 }
 
 const daos: Dao[] = [
@@ -9,6 +10,7 @@ const daos: Dao[] = [
     name: "Uniswap",
     discussUrl: "https://gov.uniswap.org/",
     voteUrl: "https://app.uniswap.org/#/vote",
+    logoUrl: "uniswap.svg",
   },
   {
     name: "MakerDAO",
