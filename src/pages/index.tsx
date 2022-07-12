@@ -12,7 +12,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="p-8 grid grid-cols-8 space-x-5">
+      <div
+        className="p-8 grid gap-5"
+        style={{
+          gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+        }}
+      >
         {daos.map((dao) => (
           <DaoCard key={dao.name} dao={dao} />
         ))}
