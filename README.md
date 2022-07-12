@@ -1,3 +1,7 @@
-# Create T3 App
+# wheretovote.xyz
 
-This is an app bootstrapped according to the [init.tips](https://init.tips) stack, also known as the T3-Stack.
+quicklinks for DAO governance
+
+### want to add a dao?
+
+update the file `src/data/daos.ts` and open a pr
