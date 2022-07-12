@@ -9,7 +9,7 @@ const DaoCard = ({ dao }: { dao: Dao }) => {
 
   return (
     <div className="bg-white shadow rounded-md p-5 flex flex-col items-center">
-      <div className="flex-grow flex items-center">
+      <div className="flex-grow flex items-center mt-2">
         {logoUrl ? (
           <Img
             src={`/logos/${logoUrl}`}
@@ -22,7 +22,7 @@ const DaoCard = ({ dao }: { dao: Dao }) => {
         )}
       </div>
 
-      <p className="text-gray-900 mt-4 mb-6">{name}</p>
+      <p className="text-gray-900 mt-4 mb-5">{name}</p>
 
       <div className="flex justify-between gap-3">
         {discussUrl && <Link href={discussUrl}>Discuss</Link>}
