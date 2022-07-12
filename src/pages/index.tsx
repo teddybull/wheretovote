@@ -20,7 +20,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>daogov</title>
+        <title>where to vote?</title>
         <meta
           name="description"
           content="Quicklinks for dao governance pages"
