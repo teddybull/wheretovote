@@ -6,6 +6,7 @@ import Head from "next/head";
 import daos from "../data/daos";
 import DaoCard from "../components/DaoCard";
 import useAutoFocus from "../hooks/useAutoFocus";
+import Contribute from "../components/Contribute";
 
 const Home: NextPage = () => {
   const searchInputRef = useAutoFocus();
@@ -49,6 +50,8 @@ const Home: NextPage = () => {
           }}
         />
       </div>
+
+      <Contribute />
 
       <div
         className="p-8 grid gap-5"
