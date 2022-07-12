@@ -16,6 +16,13 @@ const daos: Dao[] = [
     name: "MakerDAO",
     discussUrl: "https://forum.makerdao.com/",
     voteUrl: "https://vote.makerdao.com/",
+    logoUrl: "maker.svg",
+  },
+  {
+    name: "Curve",
+    discussUrl: "https://gov.curve.fi/",
+    voteUrl: "https://dao.curve.fi/locker",
+    logoUrl: "curve.svg",
   },
 ];
 

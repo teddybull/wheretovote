@@ -22,7 +22,7 @@ const DaoCard = ({ dao }: { dao: Dao }) => {
         )}
       </div>
 
-      <p className="mt-4 mb-6">{name}</p>
+      <p className="text-gray-900 mt-4 mb-6">{name}</p>
 
       <div className="flex justify-between gap-3">
         {discussUrl && <Link href={discussUrl}>Discuss</Link>}
