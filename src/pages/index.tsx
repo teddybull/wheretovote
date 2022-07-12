@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex flex-col mt-10 align-center">
+      <div className="flex flex-col mt-10 p-6 align-center">
         <h1 className="hidden">Where to vote?</h1>
         <img
           src="/logo.svg"
