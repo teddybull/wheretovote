@@ -119,7 +119,7 @@ const daos: Dao[] = [
     name: "elimu.ai",
     discussUrl: "https://discord.gg/9rz4XYJJDE",
     voteUrl: "https://voice.aragon.org/tokens/info/#/0xe29797910d413281d2821d5d9a989262c8121cc2",
-    logoUrl: "elimu_ai.png"
+    logoUrl: "elimu.png"
   }
   {
     name: "Tornado Cash",
