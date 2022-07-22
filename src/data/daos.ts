@@ -116,16 +116,17 @@ const daos: Dao[] = [
     logoUrl: "dhedge.png",
   },
   {
-    name: "elimu.ai",
-    discussUrl: "https://discord.gg/9rz4XYJJDE",
-    voteUrl: "https://voice.aragon.org/tokens/info/#/0xe29797910d413281d2821d5d9a989262c8121cc2",
-    logoUrl: "elimu.png"
-  }
-  {
     name: "Tornado Cash",
     discussUrl: "https://torn.community/",
     voteUrl: "https://tornadocash.eth.link/ipns/tornadocash.eth/governance/",
     logoUrl: "tornado.svg",
+  },
+  {
+    name: "elimu.ai",
+    discussUrl: "https://discord.gg/9rz4XYJJDE",
+    voteUrl:
+      "https://voice.aragon.org/tokens/info/#/0xe29797910d413281d2821d5d9a989262c8121cc2",
+    logoUrl: "elimu.png",
   },
 ];
 
